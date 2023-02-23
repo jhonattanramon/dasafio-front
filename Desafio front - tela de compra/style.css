@@ -11,10 +11,12 @@ body {
     padding: 10px;
     color: #707070;
     
-    
+    font-size: 10pt;
     
     
 }
+
+
 
 .container{
 		width: 100%;
@@ -74,25 +76,29 @@ nav .btNav{
   color: #707070;
 }
 
+
+
 .sectionForm{
   
   display:flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   
 }
 
 
 .divForm{
-  width: 30%;
+  width: 400px;
   display: flex; 
   flex-direction: column;
   gap: 13px;
   
+  
 }
 
 .divDescription{
-  width: 55%;
+  width: 700px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -157,14 +163,12 @@ nav .btNav{
  }
  
 .sectionCardProdutos{
-	
 	display: flex;
 	flex-wrap: wrap;
-	
-
-
-	
 }
+
+
+
 .inputsFooter{
 	display: flex;
 	width: 100%;
@@ -200,3 +204,37 @@ nav .btNav{
 
 
 
+
+@media screen and (min-width: 40px) {
+
+  body{
+    font-size: 13pt;
+  }
+  .sectionCardProdutos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .cardProduto{
+    width: 100%;
+  }
+
+
+  .divBtForm{
+    padding: 10px;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .inputsFooter{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+
+}
