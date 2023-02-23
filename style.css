@@ -6,6 +6,8 @@
  
 }
 
+
+
 body {
     font-family: "poppins", "sans-serif";
     padding: 10px;
@@ -198,14 +200,7 @@ nav .btNav{
 
 
 
- 
- 
-
-
-
-
-
-@media screen and (min-width: 40px) {
+@media screen and (max-width: 700px) {
 
   body{
     font-size: 13pt;
@@ -238,3 +233,8 @@ nav .btNav{
   }
 
 }
+ 
+
+
+
+
