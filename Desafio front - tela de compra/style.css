@@ -1,0 +1,202 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+   list-style: none;
+ 
+}
+
+body {
+    font-family: "poppins", "sans-serif";
+    padding: 10px;
+    color: #707070;
+    
+    
+    
+    
+}
+
+.container{
+		width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap ;
+  margin-bottom: 25px;
+  
+}
+
+header{
+	
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+  margin-bottom: 50px;
+	
+
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+	
+}
+
+.baseBt{
+	background: none;
+	border: 1px solid #707070;
+	border-radius: 2px;
+	padding: 10px 33px;
+	color: #707070;
+}
+
+.baseBt:hover{
+  background: rgb(112, 112, 112, 0.7);
+  color: white;
+}
+
+nav .btNav{
+  border: 1px solid #707070 ;
+  background: white;
+  padding: 7px 23px;
+  color: #707070;
+}
+
+.sectionForm{
+  
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+
+.divForm{
+  width: 30%;
+  display: flex; 
+  flex-direction: column;
+  gap: 13px;
+  
+}
+
+.divDescription{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputForm{ 
+  width: 90%;
+  padding: 5px;
+}
+
+.btForm{
+  width: 90%;
+  background: none;
+  border: 1px solid #707070;
+  padding: 10px 0 ;
+}
+
+.textSuaSecao{
+	width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.line{
+  border-top:1px solid #707070;
+  width: 40%;
+  position: relative;
+  top: 14px;
+}
+
+.sectionDeProdutos{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.cardProduto{
+  width: 25%;
+  padding: 10px;
+ 
+  
+
+ 
+ }
+ .cardProduto img{
+  width: 230px;
+  height: 230px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%)
+  
+ }
+ .cardProduto button{ 
+ 	width: 90%;
+	padding: 10px;
+ 	background: none;
+ 	border: 1px solid #707070;
+ 	color: #707070;
+ }
+ 
+.sectionCardProdutos{
+	
+	display: flex;
+	flex-wrap: wrap;
+	
+
+
+	
+}
+.inputsFooter{
+	display: flex;
+	width: 100%;
+	
+	justify-content: center;
+	gap: 50px;
+	margin-bottom: 25px;
+	
+	
+}
+.inputsFooter div{
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	
+	
+}
+
+.inputsFooter div input{
+	width: 100%;
+	padding: 5px;
+}
+
+.btFooter{
+	padding: 10px 100px;
+}
+
+
+
+ 
+ 
+
+
+
+
